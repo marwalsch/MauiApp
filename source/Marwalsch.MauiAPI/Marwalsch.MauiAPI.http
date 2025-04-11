@@ -1,0 +1,6 @@
+@Marwalsch.MauiAPI_HostAddress = http://localhost:5013
+
+GET {{Marwalsch.MauiAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage 
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:mct="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+    xmlns:pages="clr-namespace:Marwalsch.Maui.Pages"
+    x:Class="Marwalsch.Maui.Pages.AssignmentDetailsPage"
+    x:DataType="pages:AssignmentDetailsPageViewModel">
+    <!--
+    <ContentPage.Behaviors>
+        <mct:EventToCommandBehavior
+            EventName="Disappearing"
+            Command="{Binding SaveCommand}" />
+    </ContentPage.Behaviors>
+    -->
+    <Grid 
+        RowDefinitions="*, Auto"
+        RowSpacing="20">
+        <ScrollView Grid.Row="0">
+            <Grid 
+                Padding="20"
+                RowDefinitions="Auto,Auto,Auto,Auto" 
+                ColumnDefinitions="Auto, *"
+                ColumnSpacing="10"
+                RowSpacing="10">
+                <Label 
+                    Grid.Row="0" 
+                    Grid.Column="0" 
+                    Text="Title" 
+                    VerticalOptions="Center" />
+                <Entry 
+                    Grid.Row="0" 
+                    Grid.Column="1" 
+                    Text="{Binding Title, Mode=TwoWay}" />
+                <Label 
+                    Grid.Row="1" 
+                    Grid.Column="0" 
+                    VerticalOptions="Center" 
+                    Text="Description"/>
+                <Editor 
+                    Grid.Row="1" 
+                    Grid.Column="1" 
+                    Text="{Binding Description, Mode=TwoWay}" 
+                    HeightRequest="100" />
+                <Label 
+                    Grid.Row="2" 
+                    Grid.Column="0"
+                    Text="Due Date"  
+                    VerticalOptions="Center" />
+                <DatePicker 
+                    Grid.Row="2" 
+                    Grid.Column="1"
+                    Date="{Binding Deadline, Mode=TwoWay}"  />
+                <Label 
+                    Grid.Row="3" 
+                    Grid.Column="0"
+                    Text="Status"  
+                    VerticalOptions="Center" />
+                <CheckBox 
+                    Grid.Row="3" 
+                    Grid.Column="1"
+                    IsChecked="{Binding IsCompleted, Mode=TwoWay}"/>
+            </Grid>
+        </ScrollView>
+        <HorizontalStackLayout 
+            Margin="20"
+            Spacing="10"
+            Grid.Row="1">
+            <Button
+                Command="{Binding SaveCommand}"
+                IsEnabled="{Binding IsNotBusy}"
+                Text="Save" />
+            <Button
+                Command="{Binding DeleteCommand}"
+                IsEnabled="{Binding IsNotBusy}"
+                Text="Delete" />
+        </HorizontalStackLayout>
+    </Grid>
+</ContentPage>

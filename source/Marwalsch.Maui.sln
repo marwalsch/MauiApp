@@ -1,0 +1,94 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35919.96
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Marwalsch.MauiApp", "Marwalsch.Maui\Marwalsch.Maui\Marwalsch.MauiApp.csproj", "{2600CB24-05D5-4A0E-9AA2-33714617CAEB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Marwalsch.MauiApp.Droid", "Marwalsch.Maui\Marwalsch.Maui.Droid\Marwalsch.MauiApp.Droid.csproj", "{94FF8309-B813-48FD-B34D-729F92228B3C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Marwalsch.MauiApp.WinUI", "Marwalsch.Maui\Marwalsch.Maui.WinUI\Marwalsch.MauiApp.WinUI.csproj", "{7393A409-50BE-49D9-B794-D4DDA5EC8A71}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Client", "Client", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Server", "Server", "{FED35DA0-7627-4BB4-9D1D-A8F00A07F160}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Marwalsch.MauiAPI", "Marwalsch.MauiAPI\Marwalsch.MauiAPI.csproj", "{B6289DD4-17F2-4151-BEC0-B91EDB939EA8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Marwalsch.MauiAPI.Data", "Marwalsch.MauiAPI.Data\Marwalsch.MauiAPI.Data.csproj", "{C1A1A25B-CFF4-4A7B-BC62-E7058C8AC5B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Marwalsch.MauiAPI.Model", "Marwalsch.MauiAPI.Model\Marwalsch.MauiAPI.Model.csproj", "{97FB6663-1830-4B4D-8DCA-F04CB57D9B29}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{582312B7-4DDF-4DBC-8319-0E691EDEDDB9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Marwalsch.Maui.Model", "Marwalsch.Maui.Model\Marwalsch.Maui.Model.csproj", "{5A2FB8AD-A8B9-4FD1-8C81-D2D90EA3A37E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Marwalsch.MauiApp.Data", "Marwalsch.MauiApp.Data\Marwalsch.MauiApp.Data.csproj", "{D1217321-4A29-492D-9826-1715BED8718C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Marwalsch.MauiApp.Model", "Marwalsch.MauiApp.Model\Marwalsch.MauiApp.Model.csproj", "{087DC612-2D0C-4279-ACD0-F6D87E4B27F6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2600CB24-05D5-4A0E-9AA2-33714617CAEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2600CB24-05D5-4A0E-9AA2-33714617CAEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2600CB24-05D5-4A0E-9AA2-33714617CAEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2600CB24-05D5-4A0E-9AA2-33714617CAEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94FF8309-B813-48FD-B34D-729F92228B3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94FF8309-B813-48FD-B34D-729F92228B3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94FF8309-B813-48FD-B34D-729F92228B3C}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{94FF8309-B813-48FD-B34D-729F92228B3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94FF8309-B813-48FD-B34D-729F92228B3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94FF8309-B813-48FD-B34D-729F92228B3C}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{7393A409-50BE-49D9-B794-D4DDA5EC8A71}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{7393A409-50BE-49D9-B794-D4DDA5EC8A71}.Debug|Any CPU.Build.0 = Debug|x64
+		{7393A409-50BE-49D9-B794-D4DDA5EC8A71}.Debug|Any CPU.Deploy.0 = Debug|x64
+		{7393A409-50BE-49D9-B794-D4DDA5EC8A71}.Release|Any CPU.ActiveCfg = Release|x64
+		{7393A409-50BE-49D9-B794-D4DDA5EC8A71}.Release|Any CPU.Build.0 = Release|x64
+		{7393A409-50BE-49D9-B794-D4DDA5EC8A71}.Release|Any CPU.Deploy.0 = Release|x64
+		{B6289DD4-17F2-4151-BEC0-B91EDB939EA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6289DD4-17F2-4151-BEC0-B91EDB939EA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6289DD4-17F2-4151-BEC0-B91EDB939EA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6289DD4-17F2-4151-BEC0-B91EDB939EA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1A1A25B-CFF4-4A7B-BC62-E7058C8AC5B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1A1A25B-CFF4-4A7B-BC62-E7058C8AC5B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1A1A25B-CFF4-4A7B-BC62-E7058C8AC5B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1A1A25B-CFF4-4A7B-BC62-E7058C8AC5B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97FB6663-1830-4B4D-8DCA-F04CB57D9B29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97FB6663-1830-4B4D-8DCA-F04CB57D9B29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97FB6663-1830-4B4D-8DCA-F04CB57D9B29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97FB6663-1830-4B4D-8DCA-F04CB57D9B29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A2FB8AD-A8B9-4FD1-8C81-D2D90EA3A37E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A2FB8AD-A8B9-4FD1-8C81-D2D90EA3A37E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A2FB8AD-A8B9-4FD1-8C81-D2D90EA3A37E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A2FB8AD-A8B9-4FD1-8C81-D2D90EA3A37E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1217321-4A29-492D-9826-1715BED8718C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1217321-4A29-492D-9826-1715BED8718C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1217321-4A29-492D-9826-1715BED8718C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1217321-4A29-492D-9826-1715BED8718C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{087DC612-2D0C-4279-ACD0-F6D87E4B27F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{087DC612-2D0C-4279-ACD0-F6D87E4B27F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{087DC612-2D0C-4279-ACD0-F6D87E4B27F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{087DC612-2D0C-4279-ACD0-F6D87E4B27F6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2600CB24-05D5-4A0E-9AA2-33714617CAEB} = {582312B7-4DDF-4DBC-8319-0E691EDEDDB9}
+		{94FF8309-B813-48FD-B34D-729F92228B3C} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{7393A409-50BE-49D9-B794-D4DDA5EC8A71} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{B6289DD4-17F2-4151-BEC0-B91EDB939EA8} = {FED35DA0-7627-4BB4-9D1D-A8F00A07F160}
+		{C1A1A25B-CFF4-4A7B-BC62-E7058C8AC5B4} = {FED35DA0-7627-4BB4-9D1D-A8F00A07F160}
+		{97FB6663-1830-4B4D-8DCA-F04CB57D9B29} = {FED35DA0-7627-4BB4-9D1D-A8F00A07F160}
+		{582312B7-4DDF-4DBC-8319-0E691EDEDDB9} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{D1217321-4A29-492D-9826-1715BED8718C} = {582312B7-4DDF-4DBC-8319-0E691EDEDDB9}
+		{087DC612-2D0C-4279-ACD0-F6D87E4B27F6} = {582312B7-4DDF-4DBC-8319-0E691EDEDDB9}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1FFFCC92-17E6-4138-8F81-47BDCA03B227}
+	EndGlobalSection
+EndGlobal
