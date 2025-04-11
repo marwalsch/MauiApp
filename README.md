@@ -29,7 +29,11 @@ This is a very minimal sample for demonstration's sake containing many loose end
 * proper validation on both the client's UI and the API;
 * logging, telemetry and crash-reporting;
 * robust error-handling on client and server respectively, including appropriate status codes for the latter;
-* more user-friendly interfaces
+* more user-friendly interfaces;
+* server-side ordering and filtering and proper pagination;
+* client-side data caching;
+* a proper authentications scheme;
+* enhanced authorization including resource-based rules;
 
 in no particular order of priority.
 
