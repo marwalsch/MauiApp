@@ -17,8 +17,11 @@ Integration tests using [Postman](https://www.postman.com/) have been chosen in 
 
 Import the postman collection from the eponymous folder and use the collection runner to verify the methods' basic functionality. When testing individual methods the `assignmentId` collection variable may need to be updated to target the correct resource.
 
+![Postman](docs/postman-testrun.png)
+
 You can also use the swagger dashboard to run individual methods. Ensure requests are authorized beforehand.
 
+![Swagger](docs/swagger-dashboard.png)
 
 ## Disclaimer
 
